@@ -1,0 +1,175 @@
+.base {
+  display: inline-block;
+  margin: 40px auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+header {
+  padding: 2rem 0;
+}
+header .logo-container {
+  display: flex;
+  align-items: center;
+}
+header .logo-container img {
+  max-width: 500px;
+  width: 200px;
+}
+header .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+header .menu .nav-link {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+header .menu .nav-link:hover {
+  color: #a9744f;
+}
+header .end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+}
+header .end:hover {
+  color: #a9744f;
+}
+header .end ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header .end ul i {
+  font-size: 100px;
+  color: #333;
+  cursor: pointer;
+}
+header .end ul i:hover {
+  color: #a9744f;
+}
+
+.hero {
+  height: 848px;
+  background-color: #f8f6f2;
+  width: 20px;
+  margin-top: 20px;
+}
+.hero__container {
+  display: flex;
+  height: 100%;
+}
+.hero__left {
+  width: 40%;
+  color: #fff;
+  display: flex;
+}
+.hero__right {
+  position: relative;
+  left: 156px;
+  display: flex;
+}
+
+header {
+  padding: 2rem 0;
+}
+
+header .logo-container {
+  display: flex;
+  align-items: center;
+}
+
+header .logo-container img {
+  max-width: 500px;
+  width: 200px;
+}
+
+header .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header .menu .nav-link {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header .menu .nav-link:hover {
+  color: #a9744f;
+}
+
+header .end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+}
+
+header .end:hover {
+  color: #a9744f;
+}
+
+header .end ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header .end ul i {
+  font-size: 100px;
+  color: #333;
+  cursor: pointer;
+}
+
+header .end ul i:hover {
+  color: #a9744f;
+}
+
+.hero {
+  height: 848px;
+  background-color: #f8f6f2;
+  width: 20px;
+  margin-top: 20px;
+}
+
+.hero__container {
+  display: flex;
+  height: 100%;
+}
+
+.hero__left {
+  width: 40%;
+  color: #fff;
+  display: flex;
+}
+
+.hero__right {
+  position: relative;
+  left: 156px;
+  display: flex;
+}
+
+/*# sourceMappingURL=main.css.map */
